@@ -19,5 +19,13 @@ namespace CommunicatingBetweenControls
                 return _instance;
 			}
         }
+
+        //Instance functionality
+        public event EventHandler<JobChangedeventArgs> JobChanged;
+
+        public void OnJobChanged(object sender, Job job)
+		{
+
+		}
 	}
 }
