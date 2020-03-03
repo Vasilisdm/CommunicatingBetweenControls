@@ -1,10 +1,10 @@
-﻿using System;
-using CommunicatingBetweenControls.Model;
+﻿using CommunicatingBetweenControls.Model;
+using System;
 
 namespace CommunicatingBetweenControls
 {
 	public class JobChangedEvntArgs : EventArgs
 	{
-		public Job job { get; set; }
+		public Job Job { get; set; }
 	}
 }
